@@ -1,4 +1,4 @@
-# ReWear – Community Clothing Exchange
+# CLYRA ReWear – Community Clothing Exchange
 
 Team Name: **VizNex**
 
