@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "./Register.css";
 import logo from "../assets/image.png";
 
+import { Link } from "react-router-dom";
+
+
 const roles = ["User", "Donor", "Admin"];
 
 const Register = () => {
@@ -131,9 +134,14 @@ const Register = () => {
                 Create Account
               </button>
             </form>
+            {/* <div className="signin-link">
+              Already have an account? <a href="/HomePage">Sign In</a>
+            </div> */}
+
             <div className="signin-link">
-              Already have an account? <a href="/login">Sign In</a>
-            </div>
+  Already have an account? <Link to="/HomePage">Sign In</Link>
+</div>
+
           </div>
         </div>
       </div>
