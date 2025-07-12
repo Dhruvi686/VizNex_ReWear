@@ -168,6 +168,38 @@
   font-size: 1.05rem;
   text-align: center;
 }
+.landingActionBtns {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.landingLoginBtn, .landingSignupBtn {
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 12px rgba(162,89,255,0.10);
+}
+.landingLoginBtn {
+  background: #fff;
+  color: #a259ff;
+  border: 2px solid #a259ff;
+}
+.landingLoginBtn:hover {
+  background: #f3e8ff;
+}
+.landingSignupBtn {
+  background: #a259ff;
+  color: #fff;
+  border: 2px solid #a259ff;
+}
+.landingSignupBtn:hover {
+  background: #7c3aed;
+}
 @media (max-width: 900px) {
   .cardsRow {
     flex-direction: column;

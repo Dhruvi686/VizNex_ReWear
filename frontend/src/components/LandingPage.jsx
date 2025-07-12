@@ -16,7 +16,7 @@ const LandingPage = () => {
         </div>
         <div className={styles.authBtns}>
           <button className={styles.loginBtn} onClick={() => navigate('/login')}>Login</button>
-          <button className={styles.signupBtn}>Sign Up</button>
+          <button className={styles.signupBtn} onClick={() => navigate('/register')}>Sign Up</button>
         </div>
       </header>
       <main className={styles.mainContent}>
@@ -24,9 +24,14 @@ const LandingPage = () => {
         <p className={styles.subtitle}>
           Join the sustainable fashion revolution. Swap, donate, and redeem unused clothing through our community-driven platform that reduces textile waste and promotes reuse.
         </p>
+        {/* Add two large buttons here */}
+        <div className={styles.landingActionBtns}>
+          <button className={styles.landingLoginBtn} onClick={() => navigate('/login')}>Log In</button>
+          <button className={styles.landingSignupBtn} onClick={() => navigate('/register')}>Sign Up</button>
+        </div>
         <div className={styles.ctaBtns}>
-          <button className={styles.startBtn}>Start Swapping <span>&rarr;</span></button>
-          <button className={styles.browseBtn}>Browse Items</button>
+          <button className={styles.startBtn} onClick={() => navigate('/register')}>Start Swapping <span>&rarr;</span></button>
+          <button className={styles.browseBtn} onClick={() => navigate('/dashboard')}>Browse Items</button>
         </div>
         <section className={styles.howWorksSection}>
           <h2 className={styles.howWorksTitle}>How ReWear Works</h2>
