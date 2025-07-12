@@ -1,0 +1,164 @@
+.loginBg {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #f5f3ff 0%, #e9d5ff 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 2.5rem;
+}
+.logoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+.logoImg {
+  max-width: 180px;
+  height: auto;
+  display: block;
+}
+.welcome {
+  font-size: 2.2rem;
+  color: #22223b;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+.subtitle {
+  color: #6b7280;
+  font-size: 1.1rem;
+  margin-bottom: 2.2rem;
+  text-align: center;
+}
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(162,89,255,0.10);
+  padding: 2.5rem 2.2rem 2rem 2.2rem;
+  min-width: 340px;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 2.2rem;
+}
+.loginTitle {
+  font-size: 1.5rem;
+  color: #111827;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.loginSubtitle {
+  color: #6b7280;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+.toggleRow {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.toggleBtn, .toggleActive {
+  flex: 1;
+  padding: 0.5rem 0;
+  border-radius: 7px 7px 0 0;
+  border: 1.5px solid #a259ff;
+  background: #f3e8ff;
+  color: #a259ff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  outline: none;
+  border-bottom: none;
+}
+.toggleActive {
+  background: #a259ff;
+  color: #fff;
+  z-index: 2;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 7px;
+  border: 1.5px solid #e0e0e0;
+  font-size: 1rem;
+  background: #faf9fd;
+  margin-top: 0.3rem;
+  transition: border 0.2s;
+}
+.input:focus {
+  border: 1.5px solid #a259ff;
+  outline: none;
+}
+.forgotRow {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+.forgot {
+  color: #a259ff;
+  font-size: 0.98rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+.forgot:hover {
+  text-decoration: underline;
+}
+.signinBtn {
+  margin-top: 0.5rem;
+  background: linear-gradient(90deg, #a259ff 60%, #7c3aed 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.9rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 2px 8px rgba(162,89,255,0.10);
+}
+.signinBtn:hover {
+  background: linear-gradient(90deg, #7c3aed 60%, #a259ff 100%);
+}
+.signupRow {
+  margin-top: 0.5rem;
+  font-size: 1.08rem;
+  color: #6b7280;
+  text-align: center;
+}
+.signupLink {
+  color: #a259ff;
+  font-weight: 600;
+  margin-left: 0.3rem;
+  text-decoration: none;
+}
+.signupLink:hover {
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .card {
+    min-width: 90vw;
+    max-width: 98vw;
+    padding: 1.2rem 0.5rem 1rem 0.5rem;
+  }
+  .logoImg {
+    max-width: 120px;
+  }
+  .loginBg {
+    padding-top: 1.2rem;
+  }
+} 
