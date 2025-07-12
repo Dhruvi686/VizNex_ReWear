@@ -1,6 +1,7 @@
 # ReWear – Community Clothing Exchange
 
 Team Name: **VizNex**
+
 Team Members:  **4**
 
 **Team Members Name1: Grishma Jethava**
