@@ -56,3 +56,8 @@ ReWear is a sustainable fashion platform where users can swap, donate, or redeem
 - DB: MongoDB Atlas   
 
 ---
+
+## Video Link:
+
+- https://drive.google.com/file/d/1FN07UsgHgAUPxGzvD7UDFGqExa4DWQIB/view?usp=drive_link
+
