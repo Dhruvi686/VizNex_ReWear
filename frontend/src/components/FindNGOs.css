@@ -1,0 +1,216 @@
+.ngo-container {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(180deg, #f8f6fc 0%, #f3f0fa 100%);
+    min-height: 100vh;
+    color: #2d2053;
+    padding: 0 32px 32px 32px;
+  }
+  .ngo-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0 0 0;
+    background: #fff;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 2px 8px rgba(80, 60, 160, 0.04);
+  }
+  .back-btn {
+    background: none;
+    border: none;
+    color: #a259e6;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 16px;
+  }
+  .logo-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .logo-clyra {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #a259e6;
+    letter-spacing: 0.2em;
+  }
+  .logo-rewear {
+    font-size: 1rem;
+    font-style: italic;
+    color: #a259e6;
+    margin-left: 4px;
+  }
+  .ngo-header h1 {
+    font-size: 1.5rem;
+    margin-left: 24px;
+  }
+  .ngo-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 32px 0 0 0;
+  }
+  .ngo-subtitle {
+    text-align: center;
+    color: #7c6ca6;
+    margin-bottom: 32px;
+  }
+  .ngo-filters {
+    display: flex;
+    gap: 16px;
+    margin: 32px 0 24px 0;
+    justify-content: center;
+  }
+  .ngo-search {
+    flex: 1;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid #e0d7f3;
+    font-size: 1.1rem;
+    min-width: 320px;
+  }
+  .ngo-select {
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid #a259e6;
+    background: #fff;
+    color: #a259e6;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .ngo-count {
+    color: #a59fc6;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+  .ngo-list {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ngo-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(80, 60, 160, 0.06);
+    padding: 24px 32px 18px 32px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+  .ngo-card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .ngo-icon {
+    font-size: 2rem;
+  }
+  .ngo-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .ngo-verified {
+    background: #a259e6;
+    color: #fff;
+    border-radius: 8px;
+    padding: 2px 12px;
+    font-size: 0.95rem;
+    margin-left: 8px;
+  }
+  .ngo-rating {
+    margin-left: auto;
+    color: #e06c9f;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .ngo-location {
+    color: #7c6ca6;
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+  .ngo-desc {
+    font-size: 1rem;
+    color: #2d2053;
+    margin-bottom: 8px;
+  }
+  .ngo-contact {
+    font-size: 1rem;
+    color: #a259e6;
+    margin-bottom: 8px;
+    display: flex;
+    gap: 18px;
+  }
+  .ngo-needs {
+    margin-bottom: 8px;
+  }
+  .need-tag {
+    background: #f3eaff;
+    color: #a259e6;
+    border-radius: 8px;
+    padding: 2px 10px;
+    font-size: 0.95rem;
+    margin-right: 6px;
+  }
+  .urgent-needs {
+    margin-top: 4px;
+  }
+  .urgent-tag {
+    background: #e06c9f;
+    color: #fff;
+    border-radius: 8px;
+    padding: 2px 10px;
+    font-size: 0.95rem;
+    margin-right: 6px;
+  }
+  .ngo-actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+  }
+  .donate-btn, .pickup-btn {
+    background: #a259e6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  .donate-btn:hover, .pickup-btn:hover {
+    background: #7c6ca6;
+  }
+  .ngo-modal {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  .ngo-modal-content {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px 48px;
+    box-shadow: 0 2px 16px rgba(80, 60, 160, 0.12);
+    text-align: center;
+  }
+  .ngo-modal-content button {
+    margin-top: 18px;
+    background: #a259e6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }

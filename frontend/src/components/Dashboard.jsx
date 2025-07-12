@@ -188,7 +188,7 @@ const Dashboard = () => {
             <div className="quick-actions-section">
               <h2>Quick Actions</h2>
               <button className="quick-action-btn">+ List New Item</button>
-              <button className="quick-action-btn">Find NGO</button>
+              <button className="quick-action-btn" onClick={() => navigate('/find-ngos')}>Find NGO</button>
               <button className="quick-action-btn" onClick={() => navigate('/browse')}>Browse Items</button>
             </div>
           </div>
