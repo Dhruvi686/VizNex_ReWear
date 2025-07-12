@@ -61,3 +61,7 @@ ReWear is a sustainable fashion platform where users can swap, donate, or redeem
 
 - https://drive.google.com/file/d/1FN07UsgHgAUPxGzvD7UDFGqExa4DWQIB/view?usp=drive_link
 
+Latest Video:
+
+-https://drive.google.com/drive/folders/1A6f6e3TDzl1lT1G0Ex76UuIbXv2bCAXM?hl=en_GB
+
