@@ -1,8 +1,7 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import './Dashbord.css';
+import './Dashboard.css';
 
-// Dummy data for listings (network images)
+// Dummy data for listings (use network images)
 const listedItems = [
   {
     image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80',
@@ -67,7 +66,6 @@ const notifications = [
 
 const Dashboard = () => {
   const [activeTab, setActiveTab] = React.useState('listings');
-  const navigate = useNavigate();
 
   return (
     <div className="dashboard-container">
@@ -189,7 +187,7 @@ const Dashboard = () => {
               <h2>Quick Actions</h2>
               <button className="quick-action-btn">+ List New Item</button>
               <button className="quick-action-btn">Find NGO</button>
-              <button className="quick-action-btn" onClick={() => navigate('/browse')}>Browse Items</button>
+              <button className="quick-action-btn">Browse Items</button>
             </div>
           </div>
         </section>
