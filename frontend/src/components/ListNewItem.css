@@ -1,0 +1,232 @@
+.list-item-container {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(180deg, #f8f6fc 0%, #f3f0fa 100%);
+    min-height: 100vh;
+    color: #2d2053;
+    padding: 0 32px 32px 32px;
+  }
+  
+  .list-item-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0 0 0;
+    background: #fff;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 2px 8px rgba(80, 60, 160, 0.04);
+  }
+  
+  .back-btn {
+    background: none;
+    border: none;
+    color: #a259e6;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 16px;
+  }
+  
+  .logo-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .logo-clyra {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #a259e6;
+    letter-spacing: 0.2em;
+  }
+  .logo-rewear {
+    font-size: 1rem;
+    font-style: italic;
+    color: #a259e6;
+    margin-left: 4px;
+  }
+  .list-item-header h1 {
+    font-size: 1.5rem;
+    margin-left: 24px;
+  }
+  
+  .list-item-form-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  
+  .list-item-form {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(80, 60, 160, 0.06);
+    padding: 36px 48px 32px 48px;
+    min-width: 480px;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .list-item-form h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  .form-subtitle {
+    color: #7c6ca6;
+    font-size: 1rem;
+    margin-bottom: 18px;
+  }
+  
+  .form-label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #18113c;
+    margin-bottom: 4px;
+  }
+  
+  .img-upload-area {
+    border: 2px dashed #a259e6;
+    border-radius: 12px;
+    background: #f8f6fc;
+    min-height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: border 0.2s;
+    position: relative;
+  }
+  .img-upload-area:hover {
+    border: 2px solid #a259e6;
+  }
+  .img-upload-placeholder {
+    text-align: center;
+    color: #a59fc6;
+  }
+  .img-upload-note {
+    font-size: 0.95rem;
+    color: #a59fc6;
+  }
+  .img-preview {
+    max-width: 100%;
+    max-height: 140px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 0;
+  }
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .form-input {
+    border: 1px solid #e0d7f3;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 1.05rem;
+    margin-bottom: 0;
+    background: #f8f6fc;
+    color: #2d2053;
+    transition: border 0.2s;
+  }
+  .form-input:focus {
+    border: 1.5px solid #a259e6;
+    outline: none;
+  }
+  
+  textarea.form-input {
+    min-height: 80px;
+    resize: vertical;
+  }
+  
+  .tags-input-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  .add-tag-btn {
+    background: #fff;
+    color: #a259e6;
+    border: 2px solid #a259e6;
+    border-radius: 8px;
+    padding: 0 14px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  .add-tag-btn:hover {
+    background: #a259e6;
+    color: #fff;
+  }
+  .tags-list {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .tag {
+    background: #f3eaff;
+    color: #a259e6;
+    border-radius: 8px;
+    padding: 4px 10px 4px 10px;
+    font-size: 0.98rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .remove-tag-btn {
+    background: none;
+    border: none;
+    color: #a259e6;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-left: 2px;
+  }
+  
+  .form-actions {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+    justify-content: flex-end;
+  }
+  .cancel-btn {
+    background: #fff;
+    color: #a259e6;
+    border: 2px solid #a259e6;
+    border-radius: 8px;
+    padding: 10px 32px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  .cancel-btn:hover {
+    background: #a259e6;
+    color: #fff;
+  }
+  .list-btn {
+    background: linear-gradient(90deg, #a259e6 60%, #7c6ca6 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 32px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .list-btn:hover {
+    background: linear-gradient(90deg, #7c6ca6 60%, #a259e6 100%);
+  }

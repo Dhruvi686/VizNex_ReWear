@@ -6,6 +6,7 @@ import Register from "./components/Register";
 import Dashboard from "./components/Dashboard";
 import BrowseItem from "./components/BrowseItem";
 import FindNGOs from "./components/FindNGOs";
+import ListNewItem from "./components/ListNewItem";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/browse" element={<BrowseItem />} />
         <Route path="/find-ngos" element={<FindNGOs />} />
+        <Route path="/list-new-item" element={<ListNewItem />} />
       </Routes>
     </Router>
   );
